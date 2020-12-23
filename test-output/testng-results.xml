@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20514" started-at="2020-12-23T11:43:18 CET" finished-at="2020-12-23T11:43:39 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20514" started-at="2020-12-23T11:43:18 CET" finished-at="2020-12-23T11:43:39 CET">
+      <class name="com.OrangeHrm.LoginPage_Saucelab">
+        <test-method status="PASS" signature="LoginWithValidCredentials()[pri:0, instance:com.OrangeHrm.LoginPage_Saucelab@396f6598]" name="LoginWithValidCredentials" duration-ms="20450" started-at="2020-12-23T11:43:18 CET" finished-at="2020-12-23T11:43:39 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+      </class> <!-- com.OrangeHrm.LoginPage_Saucelab -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
