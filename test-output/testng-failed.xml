@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.OrangeHrm.LoginPage_Saucelab">
+      <class name="com.OrangeHrm.DoubleClick">
         <methods>
-          <include name="LoginWithValidCredentials"/>
+          <include name="DragDrop"/>
         </methods>
-      </class> <!-- com.OrangeHrm.LoginPage_Saucelab -->
+      </class> <!-- com.OrangeHrm.DoubleClick -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

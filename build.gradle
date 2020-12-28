@@ -43,5 +43,28 @@ dependencies {
 	//java -selenium dependency
 	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.11.0'
 	
-    
+	// https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin
+	compile group: 'org.apache.maven.plugins', name: 'maven-surefire-plugin', version: '3.0.0-M5'
+	
+	// https://mvnrepository.com/artifact/org.testng/testng
+	testCompile group: 'org.testng', name: 'testng', version: '7.3.0'
+
+
+	
+	
+	
+	test {
+	dependsOn 'cleanTest'
+	useTestNG() {
+	// runlist to executed. path is relative to current folder
+	suites 'TestNG.xml'
 }
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+
+}
+
+
+}
+

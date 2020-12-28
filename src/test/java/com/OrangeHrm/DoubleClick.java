@@ -1,7 +1,5 @@
 package com.OrangeHrm;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -32,7 +30,5 @@ public class DoubleClick {
 		Thread.sleep(2000);
 		driver.switchTo().alert().accept();
 		//int value="5";
-		
-
 	}
 }
