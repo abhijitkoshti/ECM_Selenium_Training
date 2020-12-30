@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7931" started-at="2020-12-28T09:29:28 CET" finished-at="2020-12-28T09:29:36 CET">
+  <suite name="Suite" duration-ms="8264" started-at="2020-12-30T11:01:44 CET" finished-at="2020-12-30T11:01:52 CET">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7931" started-at="2020-12-28T09:29:28 CET" finished-at="2020-12-28T09:29:36 CET">
+    <test name="Test" duration-ms="8264" started-at="2020-12-30T11:01:44 CET" finished-at="2020-12-30T11:01:52 CET">
       <class name="com.OrangeHrm.LoginPage">
-        <test-method status="PASS" signature="LoginWithValidCredentials()[pri:0, instance:com.OrangeHrm.LoginPage@ea1a8d5]" name="LoginWithValidCredentials" duration-ms="7887" started-at="2020-12-28T09:29:28 CET" finished-at="2020-12-28T09:29:36 CET">
+        <test-method status="PASS" signature="LoginWithValidCredentials()[pri:0, instance:com.OrangeHrm.LoginPage@4b553d26]" name="LoginWithValidCredentials" duration-ms="8202" started-at="2020-12-30T11:01:44 CET" finished-at="2020-12-30T11:01:52 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithValidCredentials -->
